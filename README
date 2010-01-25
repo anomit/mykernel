@@ -1,3 +1,7 @@
 Followed James Molloy's kernel development tutorial upto Part 5. 
 
 Current status: Trying to implement paging
+
+To test the kernel you need qemu installed.
+
+$./startup.sh
