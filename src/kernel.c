@@ -8,6 +8,6 @@ int main( struct multiboot *mboot_ptr )
     //monitor_write("Hello world!");
 
     init_descriptor_tables();
-    //init_paging();
+    init_paging();
     return 0xDEADB33F;
 }
