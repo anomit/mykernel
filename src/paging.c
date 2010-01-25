@@ -52,7 +52,7 @@ static void init_pagetable(pte_t *pgtbl)
     {
         pgtbl[i] ^= pgtbl[i];
 
-        pgtbl[i] = unset_present(pgtbl[i]);
+        pgtbl[i] = set_present(pgtbl[i]);
         pgtbl[i] = set_rw(pgtbl[i]);
         pgtbl[i] = set_us(pgtbl[i]);
 
