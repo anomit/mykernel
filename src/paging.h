@@ -12,6 +12,10 @@
 typedef u32int pte_t;
 typedef u32int pde_t;
 
+/* Physical address starting from which frames will be allocated */
+#define PHYS_PLACEMENT_ADDR 0x00100000
+
+u32int placement_addr;
 /*
  * The following fields are common for both page directory entries
  * and page table entries

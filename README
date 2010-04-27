@@ -1,6 +1,7 @@
 Followed James Molloy's kernel development tutorial upto Part 5. 
 
-Current status: Trying to implement paging
+Current status: Identity mapped first 8 MB of physical memory.
+Next goal: To write an algorithm for frame allocation
 
 To test the kernel you need qemu installed.
 
